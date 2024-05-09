@@ -107,7 +107,7 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+#BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 
 # Workaround for copying error vendor files to recovery ramdisk
 TARGET_COPY_OUT_PRODUCT := product
@@ -126,7 +126,7 @@ BOARD_ROOT_EXTRA_FOLDERS += metadata
 
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+#TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Encryption
 PLATFORM_VERSION := 99.87.36
